@@ -22,7 +22,7 @@ function printData(e) {
 }
 function filterData() {
   let e = "";
-  const t = document.querySelector("#input");
+  const t = document.querySelector(".input");
   t.focus(),
     t.addEventListener("keyup", () => {
       if ((e = t.value.toLowerCase()).length > 0) {
